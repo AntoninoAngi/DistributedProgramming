@@ -1,0 +1,84 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 2%;
+    padding: 1%;
+    margin: 1em;
+}
+
+table .seat{
+    background-color: green;
+}
+table .selectedSeat
+{
+    background-color: red;
+}
+table .selectingSeat
+{
+    background-color: yellow;
+
+}
+
+table .bookedSeat{
+    background-color: orange;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.button1{
+    justify-content: flex-start;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+
+.button1:hover {background-color: #3e8e41}
+
+.button1:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.button1:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.table {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+}
+
+body{
+    background-color: #ccf0f5;
+}
